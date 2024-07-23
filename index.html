@@ -7,9 +7,16 @@
     <title>Rockstar Games</title>
     <style>
         
-        body {
-            margin: 0; /* For Fix Gap Issues */
+        * {
+            margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            overflow-x: hidden; 
+            font-family: 'Helvetica', sans-serif;
         }
         
         .container {
@@ -63,6 +70,9 @@
         .navbar-menu .nav-link a {
             color: white;
             font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            /* font-weight: bold; */
+            font-weight: 600;
             text-transform: uppercase;
             text-decoration: none;    
         }
