@@ -16,27 +16,52 @@
             border: solid black;
             background-color: black;
             width: 100%;
-            height: 100px;
+            height: 120px;
             justify-content: center;
             display: flex;
             align-items: center;
+        }
+
+        .navbar-menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
         }
 
         .container {
             justify-content: center;
-            display: flex;
             align-items: center;
+            display: flex;
+            margin-left: 17.5px;
+            margin-right: 17,5px;
+            width: 100%;
             /* margin-left: 1000px; */
         }
 
-        .container > div {
-            margin: 1px 35px;
+        .navbar-menu .nav-item {
+            margin: 1px 50px;
         }
 
-        .container div h4 {
+        .navbar-menu .nav-link a {
             color: white;
             font-size: 16px;
             text-transform: uppercase;
+            text-decoration: none;
+            
+        }
+
+        .logo svg {
+            width: 45%;
+        }
+
+         .logo {
+            margin-right: 190px;
+            
+            /* gap: 50px; */
+
+
+
         }
 
     </style>
@@ -47,27 +72,30 @@
 
         <div class="container">
 
-            <div id="img">
+            <div class="logo">
                 <svg width="256px" height="256px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="512" cy="512" r="512" style="fill:#000000"></circle> <path d="m677.52 597.2-17.33-108.86-63.7 108h-12.1c-7.26-12.5-10.08-30.64-10.08-41.93 0-18.54 1.21-36.69 1.21-60.47 0-31.45-9.27-48-33.87-54v-.81c52-7.26 75.79-41.93 75.79-90.31 0-68.94-46-83.86-106-83.86H349.76l-68.53 324.17h85.87l25-118.12h57.25c30.64 0 43.14 14.92 43.14 43.54 0 21.77-2.42 39.11-2.42 55.63 0 6 1.21 20.56 5.64 26.2l62.08 65.71L504.17 777l114.5-68.13 85.47 65.71-15.73-108.45 98.37-68.94zM475.14 410.54H406.6l16.53-78.21h63.7c22.58 0 46.36 6 46.36 33.46 0 35.07-27.01 44.75-58.05 44.75z" style="fill:#fff" alt="Rockstar Games Logo"></path> </g></svg>
             </div>
 
-            <div id="home">
-                <h4>Home</h4>
+            <div class="navbar-menu">
+                <ul class="nav-link">
+                    <li class="nav-item">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
             </div>
 
-            <div id="about">
-                <h4>About</h4>
+            <div class="icon-user">
+                <svg width="256px" height="256px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
             </div>
-
-            <div id="contact">
-                <h4>Contact</h4>
-            </div>
-            
-            <div id="support">
-                <h4>Support</h4>
-            </div>
-
-        </div>
 
     </nav>
 
