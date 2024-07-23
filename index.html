@@ -6,10 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rockstar Games</title>
     <style>
-
+        
         body {
             margin: 0; /* For Fix Gap Issues */
             padding: 0;
+        }
+        
+        .container {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-left: 17.5px;
+            margin-right: 17,5px;
+            width: 100%;
+        }
+        
+        .logo svg {
+            width: 45%;
+        }
+
+         .logo {
+            margin-right: 190px;
+        }
+
+        .icon-user svg {
+            width: 45%;
         }
 
         .nav-bar {
@@ -29,16 +50,6 @@
             display: flex;
         }
 
-        .container {
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            margin-left: 17.5px;
-            margin-right: 17,5px;
-            width: 100%;
-            /* margin-left: 1000px; */
-        }
-
         .navbar-menu .nav-item {
             margin: 1px 50px;
         }
@@ -47,22 +58,9 @@
             color: white;
             font-size: 16px;
             text-transform: uppercase;
-            text-decoration: none;
-            
+            text-decoration: none;    
         }
 
-        .logo svg {
-            width: 45%;
-        }
-
-         .logo {
-            margin-right: 190px;
-            
-            /* gap: 50px; */
-
-
-
-        }
 
     </style>
 </head>
@@ -94,7 +92,7 @@
             </div>
 
             <div class="icon-user">
-                <svg width="256px" height="256px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#ffffff" stroke-width="0.4800000000000001" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
             </div>
 
     </nav>
