@@ -20,12 +20,19 @@ body {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border: none;
-    margin-top: 35px;
+    margin-top: 45px;
     box-shadow: 1px 2px 11px black;
     text-decoration: none;
     display: inline-block;
     align-items: center;
     justify-content: center;
+}
+
+.buy a:hover {
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+    transition: all 0.1s;
 }
 
 .container {
@@ -77,9 +84,10 @@ body {
     width: 45%;
 }
 
- .logo {
+.logo {
     margin-right: 190px;
 }
+
 
 .main-image   {
     background-image: url(images/los-santos.jpg);
@@ -122,6 +130,15 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;    
+}
+
+.navbar-menu .nav-link .nav-item a:hover {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  transition: all 0.1s;
 }
 
 .title h1 {
